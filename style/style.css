@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}  
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.section{
+    padding: 15px 0;
+}
+
+.navbar{
+    background-color: #0F2243;
+    color: #fff;
+    padding: 8px; 
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    display: flex;
+    align-items: center;
+   text-decoration: none;
+   color: #fff;   
+   
+}
+.navbar img{
+    width: 80px;
+    margin-right: 10px;
+} 
+.navbar .link{
+    display: flex;
+    align-items: center;
+}
+.navbar .link_menu{
+    display: inline;
+    padding: 0 8px;
+    padding-bottom: 5px;
+}
+.navbar .link_menu.active{
+     font-weight: bold;
+     border-bottom: 2px solid #fff;
+   
+}
